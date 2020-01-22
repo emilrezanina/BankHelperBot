@@ -1,0 +1,61 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Image",
+      "url": "http://resources.rezanina.eu/BankHelperBot.PNG",
+      "size": "stretch",
+      "horizontalAlignment": "center"
+    },
+    {
+      "type": "TextBlock",
+      "spacing": "medium",
+      "size": "default",
+      "weight": "bolder",
+      "text": "Welcome to Bank Helper Bot!",
+      "wrap": true,
+      "maxLines": 0
+    },
+    {
+      "type": "TextBlock",
+      "size": "default",
+      "isSubtle": "true",
+      "text": "I will try to give you the best advice as soon as posible.",
+      "wrap": true,
+      "maxLines": 0
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.ShowCard",
+      "title": "Bank Helper Bot info",
+      "card": {
+        "type": "AdaptiveCard",
+        "body": [
+          {
+            "type": "TextBlock",
+            "text": "Bank Helper Bot",
+            "weight": "bolder",
+            "id": "BankHelperBotInfoTitleId",
+            "maxLines": 0
+          },
+          {
+            "type": "TextBlock",
+            "weight": "default",
+            "text": "Bank Helper Bot is in Beta testing version.",
+            "id": "BankHelperBotInfoTitleDescription",
+            "maxLines": 0
+          }
+        ],
+        "$schema": "http://adaptivecards.io/schemas/adaptive-card.json"
+      }
+    },
+    {
+      "type": "Action.OpenUrl",
+      "title": "View",
+      "url": "https://www.quadient.com"
+    }
+  ]
+}

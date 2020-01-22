@@ -1,0 +1,92 @@
+﻿{
+  "luis_schema_version": "3.2.0",
+  "versionId": "0.1",
+  "name": "BankHelper",
+  "desc": "Luis Model for BankHelperBot",
+  "culture": "en-us",
+  "tokenizerVersion": "1.0.0",
+  "intents": [
+    {
+      "name": "CalculateLoan"
+    },
+    {
+      "name": "ShowLoan"
+    },
+    {
+      "name": "ShowContact"
+    },
+    {
+      "name": "None"
+    }
+  ],
+  "entities": [],
+  "patternAnyEntities": [],
+  "regex_entites": [],
+  "prebuiltEntities": [
+    {
+      "name": "datetimeV2",
+      "roles": []
+    }
+  ],
+  "model_features": [],
+  "regex_features": [],
+  "patterns": [],
+  "utterances": [
+    {
+      "text": "calculate a loan",
+      "intent": "CalculateLoan",
+      "entities": []
+    },
+    {
+      "text": "need a loan",
+      "intent": "CalculateLoan",
+      "entities": []
+    },
+    {
+      "text": "I would like borrow money",
+      "intent": "CalculateLoan",
+      "entities": []
+    },
+    {
+      "text": "give me money",
+      "intent": "CalculateLoan",
+      "entities": []
+    },
+    {
+      "text": "need help with loan",
+      "intent": "ShowContact",
+      "entities": []
+    },
+    {
+      "text": "contact",
+      "intent": "ShowContact",
+      "entities": []
+    },
+    {
+      "text": "need advice",
+      "intent": "ShowContact",
+      "entities": []
+    },
+    {
+      "text": "show a loan",
+      "intent": "ShowLoan",
+      "entities": []
+    },
+    {
+      "text": "view a loan",
+      "intent": "ShowLoan",
+      "entities": []
+    },
+    {
+      "text": "look at a loan",
+      "intent": "ShowLoan",
+      "entities": []
+    },
+    {
+      "text": "show a document",
+      "intent": "ShowLoan",
+      "entities": []
+    }
+  ],
+  "settings": []
+}
